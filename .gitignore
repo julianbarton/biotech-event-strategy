@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Data files
+*.csv
+data/*.csv
+!data/sponsor_ticker_map.csv
+
+# Results
+results/*.png
+results/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
